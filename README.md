@@ -1,0 +1,4 @@
+uphex-flatty
+============
+
+Flatty theme.
