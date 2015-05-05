@@ -5,5 +5,5 @@ Gem::Specification.new do |s|
   s.date        = "2015-05-05"
   s.description = "Uphex Flatty Theme"
   s.authors     = ["John Feminella, Tamas Sallai"]
-  s.files       = Dir.glob("assets/**/*", "theme-assets/**/*")
+  s.files       = Dir.glob("assets/**/*") + Dir.glob("theme-assets/**/*")
 end
