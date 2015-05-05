@@ -1,6 +1,6 @@
 $baseFontSize: 14px !default;
 $baseLineHeight: 20px !default;
-$sansFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$sansFontFamily: "PT Sans", Helvetica, Arial, sans-serif !default;
 $zindexDropdown: 1000 !default;
 $zindexFixedNavbar: 1030 !default;
 $grayLighter: #eee !default;
@@ -40,7 +40,7 @@ $themeNames: ("red","orange", "blue", "purple", "green", "fb", "muted", "dark", 
 $themeColors: ($red,$orange, $blue, $purple, $green, $fb, $muted, $darkColor, $pink, $grassGreen, $seaBlue, $banana, $darkOrange, $brown);
 
 // fonts
-$headingsFontFamily: Montserrat;
+$headingsFontFamily: "Roboto Slab", serif !default;
 
 // header
 $headerBackground: $contrast !default;
