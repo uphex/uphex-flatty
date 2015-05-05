@@ -29,6 +29,30 @@
     background-color: darken(whitesmoke, 10%);
   }
 
+  &.btn-green {
+    color: white;
+    background-color: $green;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+    @include box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05));
+
+    &:active, &.active {
+      @include box-shadow(inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05));
+      background-color: $green;
+    }
+
+    &:focus, &.disabled, &[disabled] {
+      background-color: $green;
+    }
+
+    &.disabled:hover, &[disabled]:hover {
+      background-color: $green;
+    }
+
+    &:hover {
+      background-color: darken($green, 10%);
+    }
+  }
+
   &.btn-white {
     background-color: $white;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
