@@ -58,10 +58,10 @@ body.login {
     .with-icon-over-input {
       position: relative;
 
-      [class^="icon-"] {
+      [class^="fa-"] {
         position: absolute;
         right: 10px;
-        top: 9px;
+        top: 12px;
       }
 
       input[type="text"] {

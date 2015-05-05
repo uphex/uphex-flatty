@@ -108,7 +108,7 @@ $wizardStepActiveColor: $white;
 $wizardStepBackground: $light;
 $wizardStepColor: darken($lightest, 70%);
 
-@import "theme/font-awesome";
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css";
 @import "theme/type";
 @import "theme/header";
 @import "theme/navigation";
