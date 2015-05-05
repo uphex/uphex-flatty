@@ -15,6 +15,7 @@ $contentBackground: #fbfbfb;
 $headerBackground: $contrast;
 $headerBrandColor: $white;
 $headerSearchButtonColor: $headerBackground;
+$headerHeight: 60px;
 
 // navigation
 $showNavCaret: false;
@@ -29,8 +30,8 @@ $navText: $dark;
 $navIconHoverFocus: $contrast;
 $navTextHoverFocus: $darkest;
 $navHeaderColor: lighten($navBackground, 20%);
-$navWidth: 250px;
-$navClosedWidth: 45px;
+$navWidth: 50px;
+$navClosedWidth: 50px;
 
 $navSecondBorder: transparent;
 $navSecondBackground: darken($lightest, 6%);

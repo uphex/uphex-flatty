@@ -307,6 +307,7 @@ header {
       }
 
       > li {
+        margin-top: 10px;
         > a {
           color: $white;
           text-shadow: none;
@@ -314,7 +315,7 @@ header {
           padding-bottom: 10px;
 
           &:focus, &:hover {
-            color: $white;
+            color: black;
           }
         }
       }
